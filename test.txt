@@ -1,0 +1,73 @@
+#include<bits/stdc++.h>
+using namespace std;
+int binarySearch(int array[],int left,int right,int item){
+if(rigth>=left){
+int mid=left+(rigth-left)/2;
+
+if(array[mid]==item){
+return mid+1;
+
+}
+if(array[mid]>item)
+return binarySearch(array,left,mid-1,item);
+
+else
+return binarySearch(array,mid+1,right,item);
+
+else
+return-1;
+}
+int main(){
+int array[10]={3,5,7,9,12,15,16,18};
+int item=15;
+int position=binarySearch 
+
+
+infinte long llist of sorted no
+changes such that  
+size of array
+10
+
+index of 3 i.e3
+
+
+
+
+while(
+)
+if (arr[mid]<=target) {
+result=arr[mid];
+start=mid+1;
+}
+else{
+end=mid-1;
+}
+
+1,2,3,5,5,6,8,9
+
+htmm css and 
+
+
+<form action="url"> 
+<label for="name>Username<label/>
+<input type="text" id="name" name='name' required> Name< input/>
+<label for ='password'> password<label/>
+<input type="password" id ='password' name='password' required>
+<button type="submit" class="btn">Login</button>
+
+<form/>
+
+.btn:hover{
+bacground-color:red; 
+
+}
+.btn{
+background:transparent;
+color:transparent;
+}
+
+
+
+
+
+
